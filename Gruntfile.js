@@ -13,12 +13,20 @@ module.exports = function(grunt) {
             }
         },
         copy: {
-            main: {
+            js: {
                 files: [{
                     expand: true,
                     cwd: 'src/js',
                     src: ['*.js'],
                     dest: 'public/js/'
+                }]
+            },
+            fonts: {
+                files: [{
+                    expand: true,
+                    cwd: 'node_modules/ionicons/fonts',
+                    src: ['*'],
+                    dest: 'public/fonts'
                 }]
             }
         },
@@ -26,12 +34,25 @@ module.exports = function(grunt) {
             options: {
                 separator: ';'
             },
-            dist: {
+            js: {
                 src: [
                     'node_modules/jquery/dist/jquery.min.js',
-                    'node_modules/typed.js/dist/typed.min.js'
+                    'node_modules/jquery-validation/dist/jquery.validate.js',
+                    'node_modules/typed.js/dist/typed.min.js',
+                    'node_modules/magnific-popup/dist/jquery.magnific-popup.min.js',
+                    'node_modules/masonry-layout/dist/masonry.pkgd.min.js',
+                    'node_modules/imagesloaded/imagesloaded.pkgd.min.js',
+                    'src/vendor/multipleFilterMasonry.js'
                 ],
                 dest: 'public/js/vendor.js'
+            },
+            css: {
+                src: [
+                    'node_modules/ionicons/css/ionicons.min.css',
+                    'node_modules/magnific-popup/dist/magnific-popup.css',
+                    'node_modules/animate.css/animate.min.css'
+                ],
+                dest: 'public/css/vendor.css'
             }
         },
 
