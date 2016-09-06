@@ -1,0 +1,25 @@
+{
+  "name": "mycv",
+  "version": "1.0.0",
+  "description": "My Сurriculum vitæ",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bddwin7/bddwin7.github.io.git"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "Dmytro Batarin <dmytro.jr@batarin.zp.ua>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bddwin7/bddwin7.github.io/issues"
+  },
+  "homepage": "https://github.com/bddwin7/bddwin7.github.io#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}
