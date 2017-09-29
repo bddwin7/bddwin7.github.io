@@ -19,7 +19,10 @@ self.addEventListener('install', e => {
         `/public/images/18738360_1696892283657659_4234275519861091339_o.jpg?timestamp=${timeStamp}`,
         `/public/images/me.jpg?timestamp=${timeStamp}`,
         `/public/js/scripts.js?timestamp=${timeStamp}`,
-        `/public/js/vendor.js?timestamp=${timeStamp}`
+        `/public/js/vendor.js?timestamp=${timeStamp}`,
+        `/launcher-icon-1x.png?timestamp=${timeStamp}`,
+        `/launcher-icon-2x.png?timestamp=${timeStamp}`,
+        `/launcher-icon-4x.png?timestamp=${timeStamp}`
       ])
       .then(() => self.skipWaiting());
     })
