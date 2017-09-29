@@ -5,7 +5,7 @@
   "main": "index.html",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bddwin7/bddwin7.github.io.git"
+    "url": "git+https://github.com/nokwin/bddwin7.github.io.git"
   },
   "keywords": [
     "cv"
@@ -13,9 +13,9 @@
   "author": "Dmytro Batarin <dmytro.jr@batarin.zp.ua>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bddwin7/bddwin7.github.io/issues"
+    "url": "https://github.com/nokwin/bddwin7.github.io/issues"
   },
-  "homepage": "https://github.com/bddwin7/bddwin7.github.io#readme",
+  "homepage": "https://github.com/nokwin/bddwin7.github.io#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
