@@ -22,7 +22,8 @@ self.addEventListener('install', e => {
         `/public/js/vendor.js?timestamp=${timeStamp}`,
         `/launcher-icon-1x.png?timestamp=${timeStamp}`,
         `/launcher-icon-2x.png?timestamp=${timeStamp}`,
-        `/launcher-icon-4x.png?timestamp=${timeStamp}`
+        `/launcher-icon-4x.png?timestamp=${timeStamp}`,
+        `/launcher-icon-512.png?timestamp=${timeStamp}`
       ])
       .then(() => self.skipWaiting());
     })
